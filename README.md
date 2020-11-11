@@ -1,5 +1,12 @@
 ﻿## Команды CLI
 
+Команды [dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/) для создания, сборки и запуска проекта
+```
+dotnet new console
+dotnet build
+dotnet run
+```
+
 Entity Framework Core - добавление нужных зависимостей
 
 ```
@@ -31,3 +38,7 @@ dotnet ef database update
 ```
 dotnet ef migrations script -i
 ```
+
+## Команды в Visual Studio
+
+* Генерация C# классов на основе JSON или XML: `Paste Special` -> `Paste JSON/XML as Classes`
